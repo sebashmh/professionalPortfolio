@@ -9,41 +9,41 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            
-            
+
+
           </p>
           <ul>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> 
-                 💻  Atlanta based < span className = "purple" > Computer Scientist. </span>
+              <i className="far fa-hand-point-right"></i>
+              💻  Atlanta based < span className="purple" > Computer Scientist. </span>
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> 
-                ☕ A Coffee snob.
+              <i className="far fa-hand-point-right"></i>
+              ☕ A Coffee connoisseur (not a snob).
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> 
+              <i className="far fa-hand-point-right"></i>
               🚵🏻‍♂️ Used to compete as a Mountain Biker, but now it 's just a hobby.
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> 
+              <i className="far fa-hand-point-right"></i>
               📱 Co-founded 2 Startups.
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> 
+              <i className="far fa-hand-point-right"></i>
               📢 I can speak fluently English and Spanish.
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> 
+              <i className="far fa-hand-point-right"></i>
               🇨🇴 I am originally from Colombia, not Columbia.
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> 
+              <i className="far fa-hand-point-right"></i>
               🎸 I play electric bass guitar.
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> 
-              Origami is one of my hobbies (I'm not that good tho).
+              <i className="far fa-hand-point-right"></i>
+              Origami is one of my hobbies.
             </li>
           </ul>
 
