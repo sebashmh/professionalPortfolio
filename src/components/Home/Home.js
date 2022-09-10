@@ -17,12 +17,12 @@ function Home() {
           <Row>
             <Col md={4} className="myAvtar">
               <Tilt>
-                <img src={homeLogo} className="img-fluid" alt="avatar" style={{ textAlign:"center" }}/>
+                <img src={homeLogo} className="img-fluid" alt="avatar" style={{ textAlign: "center" }} />
               </Tilt>
             </Col>
-            <Col md={8} className="home-header" style={{ textAlign:"left" }}>
+            <Col md={8} className="home-header" style={{ textAlign: "left" }}>
               <h1 style={{ paddingBottom: 15 }} className="heading">
-              Hi There! <span className="wave">👋🏻</span>
+                Hi There! <span className="wave">👋🏻</span>
               </h1>
 
               <h1 className="heading-name">

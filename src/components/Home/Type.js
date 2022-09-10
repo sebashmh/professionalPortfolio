@@ -2,12 +2,12 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 
 function Type() {
-  return ( <
-    Typewriter options = {
+  return (<
+    Typewriter options={
       {
         strings: [
-          "Developer",
-          "Software Architect",
+          "Computer Scientist",
+          "Software Engineer",
           "MERN Stack Developer",
           "Data Analyst Enthusiast",
         ],
@@ -16,7 +16,7 @@ function Type() {
         deleteSpeed: 50,
       }
     }
-    />
+  />
   );
 }
 

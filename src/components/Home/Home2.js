@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/home-main.svg";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Techstack from "../About/Techstack";
+import Particle from "../Particle";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -12,11 +14,11 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              A LITTLE BIT <span className="purple"> ABOUT </span> ME
+              A little bit <span className="purple"> About </span> me.
             </h1>
             <p className="home-about-body">
-              I love tech, coding is one of my passions, and coffee as well. I've been coding
-              for 10 years💻
+              I love tech, coding is one of my passions. I've been coding
+              for 10 years. I also love photography and Origami.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -35,7 +37,7 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with
               <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
+                <b className="purple"> Modern Javascript Frameworks </b>
               </i>
               like
               <i>
@@ -49,6 +51,27 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        <Container fluid className="about-section">
+          <Particle />
+          <h1 className="project-heading">
+            Professional <strong className="purple">Skillset </strong>
+          </h1>
+          <Row>
+            <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+              < Techstack iconName="devicon-javascript-plain" />
+              <Techstack iconName="devicon-python-plain-wordmark " />
+              <Techstack iconName="devicon-swift-plain" />
+              <Techstack iconName="cib-tensorflow" />
+              < Techstack iconName="devicon-java-plain " />
+              <Techstack iconName="devicon-nodejs-plain-wordmark " />
+              <Techstack iconName="devicon-express-original-wordmark" />
+              <Techstack iconName="devicon-react-original-wordmark" />
+              <Techstack iconName="devicon-mongodb-plain-wordmark" />
+              <Techstack iconName="devicon-git-plain-wordmark" />
+              <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+            </Row>
+          </Row>
+        </Container>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -58,7 +81,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href = "https://github.com/sebashmh"
+                  href="https://github.com/sebashmh"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -78,7 +101,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href = "linkedin.com/in/sebastianhenaomadrigal/"
+                  href="https://www.linkedin.com/in/sebastianhenaomadrigal/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
