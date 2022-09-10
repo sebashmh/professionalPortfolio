@@ -24,16 +24,17 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              8 Bits about me. < img src = {
+              <strong className="purple">8 Bits </strong>
+              about me. < img src={
                 bitImg
               }
-              alt = "bits"
-              className = "img-fluid"
-              style={{
-                height:"48px",
-                width:"48px"
+                alt="bits"
+                className="img-fluid"
+                style={{
+                  height: "48px",
+                  width: "48px"
 
-              }} / >
+                }} />
             </h1>
             <Aboutcard />
           </Col>
@@ -49,11 +50,11 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          < Techstack iconName = "devicon-javascript-plain" / >
+          < Techstack iconName="devicon-javascript-plain" />
           <Techstack iconName="devicon-python-plain-wordmark " />
           <Techstack iconName="devicon-swift-plain" />
           <Techstack iconName="cib-tensorflow" />
-          < Techstack iconName = "devicon-java-plain " / >
+          < Techstack iconName="devicon-java-plain " />
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
           <Techstack iconName="devicon-express-original-wordmark" />
           <Techstack iconName="devicon-react-original-wordmark" />
