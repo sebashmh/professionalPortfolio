@@ -10,6 +10,7 @@ import gyffu from "../../Assets/Projects/Sebastian Henao Madrigal Gyffu.png";
 import smartmedicine from "../../Assets/Projects/Colombian Farmer SmartMedicine.png";
 import nival from "../../Assets/Projects/nival.png";
 import bluspot from "../../Assets/Projects/bluspot.png";
+import leancore from "../../Assets/Projects/leancore.png";
 import algo from "../../Assets/Projects/nival.png";
 import plant from "../../Assets/Projects/bluspot.png";
 
@@ -27,6 +28,19 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <ProjectCard
+              imgPath={leancore}
+              isBlog={false}
+              title = "Leancore a new way to create financial inclusion in Latam."
+              description= "LeanCore is a modular solution tool aimed at companies 
+              seeking access to a robust non-traditional banking core, with solutions 
+              based on the inclusion of financial services compatible with fintech players, 
+              consumer ecosystems and users in need of credit solutions. Leancore provides advance services through simple requests, 
+              with HTTPS security schemes, JWT authentications and responses in JSON-type format that 
+              will provide endless connections to financial environments."
+              link = "https://leancore.co"/>
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCard
               imgPath={bluspot}
               isBlog={false}
               title = "Bluspot an alternative to the parking problem in Colombia."
@@ -37,8 +51,7 @@ function Projects() {
               cards. Like AirBNB, Bluespot users can review their hosts and leave comments. The app 
               is thought to be a breakthrough in utilization of public spaces and could enable some 
               of the narrow one way streets of Colombia to be more easily accessed."
-              link = "https://bluspot.us"
-            />
+              link = "https://colombiafocus.com/bluspot-proposes-an-alternative-to-the-parking-problem-in-medellin"/>
           </Col>
           <Col md={6} className="project-card">
             <ProjectCard

@@ -1,7 +1,7 @@
 html {
   --section-background-color: linear-gradient(to bottom left,
-     rgb(1, 7, 36),
-     rgba(1, 4, 10));
+      rgb(1, 7, 36),
+      rgba(1, 4, 10));
 
   --image-gradient: linear-gradient(to bottom left,
       rgb(1, 7, 36),
@@ -277,6 +277,13 @@ html {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   /* text-align: left; */
+}
+
+.home-icons {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
 }
 
 .heading {

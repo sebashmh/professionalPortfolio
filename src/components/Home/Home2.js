@@ -51,7 +51,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Container fluid className="about-section">
+        <Container fluid className="home-icons">
           <Particle />
           <h1 className="project-heading">
             Professional <strong className="purple">Skillset </strong>
