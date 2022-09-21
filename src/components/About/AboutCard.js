@@ -27,7 +27,7 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i>
-              I Co-founded 2 Startups.
+              I Co-founded 2 Startups .
             </li>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i>
@@ -50,7 +50,7 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "If they say you are crazy, you are on the right track. "{" "}
           </p>
-          <footer className="blockquote-footer">Sebastian Madrigal</footer>
+          <footer className="blockquote-footer">Sebastian Madrigal </footer>
         </blockquote>
       </Card.Body>
     </Card>
