@@ -31,7 +31,7 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i>
-              I practice travel and landscape photography.
+              I passionate about travel and landscape photography.
             </li>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i>
