@@ -314,6 +314,18 @@ html {
   .Typewriter__cursor {
     display: none !important;
   }
+  .home-header {
+    padding-top: 10px !important;
+  }
+  .home-section {
+      
+    padding-top: 10px !important;  
+  }
+  .home-content {
+    padding: 7rem 0 2rem !important;
+    color: whitesmoke;
+    /* text-align: left; */
+  }
 }
 
 .myAvtar {
@@ -563,7 +575,6 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
   color: white !important;
 }
 

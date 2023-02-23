@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Resume.pdf";
+import pdf from "../../Assets/Sebastian_Henao_Madrigal_Engineering_Manager_S.png";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
