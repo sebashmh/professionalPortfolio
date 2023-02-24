@@ -4,6 +4,8 @@ import myImg from "../../Assets/home-main.svg";
 import imgPhotographer from "../../Assets/Sebastian_Madrigal_Photographer.png";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Techstack from "../About/Techstack";
+import Particle from "../Particle";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import Techstack from "../About/Techstack";
@@ -21,7 +23,7 @@ function Home2() {
           </Col>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              A LITTLE BIT <span className="purple"> ABOUT </span> ME
+              A little bit <span className="purple"> About </span> me.
             </h1>
             <p className="home-about-body">
               -I'm really passionate about tech, software engineering, photography, and coffee! 
@@ -123,7 +125,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href = "https://github.com/sebashmh"
+                  href="https://github.com/sebashmh"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

@@ -45,9 +45,9 @@ function AboutCard() {
  </p>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "If they say you are crazy, you are on the right track."{" "}
+            "If they say   you are crazy, you are on the right track. "{" "}
           </p>
-        <blockquote className="blockquote mb-0">
+          <blockquote className="blockquote mb-0">
           <footer className="blockquote-footer">Sebastian Madrigal</footer>
         </blockquote>
       </Card.Body>

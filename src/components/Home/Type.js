@@ -2,8 +2,8 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 
 function Type() {
-  return ( <
-    Typewriter options = {
+  return (<
+    Typewriter options={
       {
         strings: [
           "Engineering Manager",
@@ -16,7 +16,7 @@ function Type() {
         deleteSpeed: 50,
       }
     }
-    />
+  />
   );
 }
 
