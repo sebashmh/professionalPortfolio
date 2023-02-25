@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Techstack from "../About/Techstack";
 import Particle from "../ParticleTS";
 import Tilt from "react-parallax-tilt";
+import Gallery from "../Gallery";
 
 
 function Home2() {
@@ -169,6 +170,7 @@ function Home2() {
               </ul>
             </Col>
           </Row>
+          <Gallery />
         </Container>
 
       </Container>

@@ -19,6 +19,7 @@ function Resume() {
           </Button>
         </Row>
         <Row className="resume">
+
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
