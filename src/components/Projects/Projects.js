@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import BlogCard from "./BlogsCards";
-import Particle from "../Particle";
+import Particle from "../ParticleTS";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -16,8 +16,9 @@ import plant from "../../Assets/Projects/bluspot.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+      
       <Container>
+       <Particle/>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>

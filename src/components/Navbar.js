@@ -50,15 +50,7 @@ function NavBar() {
                 <i className="fas fa-home"></i> Home
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <i className="far fa-user"></i> About
-              </Nav.Link>
-            </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -80,7 +72,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href = "https://github.com/sebashmh/professionalPortfolio"
+                href="https://github.com/sebashmh/professionalPortfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
