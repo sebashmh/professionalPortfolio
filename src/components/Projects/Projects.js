@@ -6,10 +6,9 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import gyffu from "../../Assets/Projects/Sebastian Henao Madrigal Gyffu.png";
 import smartmedicine from "../../Assets/Projects/Colombian Farmer SmartMedicine.png";
-import nival from "../../Assets/Projects/nival.png";
 import bluspot from "../../Assets/Projects/bluspot.png";
+import blueHubble from "../../Assets/Projects/BlueHubble_Sebastian_Henao_Madrigal.png";
 import leancore from "../../Assets/Projects/leancore.png";
 import algo from "../../Assets/Projects/nival.png";
 import plant from "../../Assets/Projects/bluspot.png";
@@ -31,68 +30,55 @@ function Projects() {
               imgPath={leancore}
               isBlog={false}
               title = "Leancore a new way to create financial inclusion in Latam."
-              description= "LeanCore is a modular solution tool aimed at companies 
-              seeking access to a robust non-traditional banking core, with solutions 
-              based on the inclusion of financial services compatible with fintech players, 
-              consumer ecosystems and users in need of credit solutions. Leancore provides advance services through simple requests, 
-              with HTTPS security schemes, JWT authentications and responses in JSON-type format that 
-              will provide endless connections to financial environments."
+              description= "LeanCore is the ultimate modular solution for companies seeking access 
+              to a robust, non-traditional banking core. Lean Core provides innovative financial 
+              services that are fully compatible with fintech players, consumer ecosystems, and users 
+              in need of credit solutions. Our platform is built with state-of-the-art HTTPS security schemes, 
+              JWT authentications, and responses in JSON-type format, providing endless connections to
+              financial environments with complete peace of mind. We pride ourselves on delivering advanced 
+              services through simple requests, ensuring ease of use and accessibility for all users"
               link = "https://leancore.co"/>
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={blueHubble}
+              isBlog={false}
+              title = "BlueHubble a cloud monitoring platform for network devices."
+              description = "BlueHubble is the ultimate tech platform for network management, 
+              bringing together thousands of network elements regardless of layer or manufacturer. 
+              Our platform provides an easy-to-use dashboard that lets you monitor and manage all of 
+              your network elements with ease. With BlueHubble, you can say goodbye to complicated, 
+              time-consuming network management and hello to efficient, streamlined operations. 
+              Our innovative platform is designed to deliver real results for your business, 
+              helping you stay on top of network performance and security. "
+              link = "https://bluehubble.com/aiops"/>
           </Col>
           <Col md={6} className="project-card">
             <ProjectCard
               imgPath={bluspot}
               isBlog={false}
-              title = "Bluspot an alternative to the parking problem in Colombia."
-              description = "Bluespot is based on the Airbnb concept of timesharing and allows 
-              connections between owners of empty parking spaces and those who need them. 
-              The app is developed using ReactNative and enables its users to reserve their spaces up 
-              to 15 minutes before they arrive, and automatically charges the fare to their credit 
-              cards. Like AirBNB, Bluespot users can review their hosts and leave comments. The app 
-              is thought to be a breakthrough in utilization of public spaces and could enable some 
-              of the narrow one way streets of Colombia to be more easily accessed."
-              link = "https://colombiafocus.com/bluspot-proposes-an-alternative-to-the-parking-problem-in-medellin"/>
-          </Col>
-          <Col md={6} className="project-card">
-            <ProjectCard
-              imgPath={nival}
-              isBlog={false}
-              title = "Analyzing Search Behaviors to Prevent Suicide."
-              description = "I developed a model applying NLP,  LSTM, and Random forest  to analyze 
-              and predict suicidal behavior in children and teenagers in Colombia. This model examined 
-              the search queries made by children and sent alarms to their parents or the proper institution. 
-              The tool was used in 12 high schools and four colleges in Colombia. Through the use of this tool 
-              and other tools created by Gyffu SAS we were able to protect more than 300,000 children in Colombia."
-              link="https://github.com/sebashmh/Plant_AI"
-            />
+              title = "Bluspot: An alternative to the parking problem in Colombia."
+              description = "Bluspot is an app that allows drivers to connect with owners of empty parking spaces 
+              and book them in advance. Built using ReactNative, the app makes it easy for users to find parking 
+              spots in congested areas of Colombia. With Bluspot, you can reserve your parking space up to 
+              15 minutes before you arrive, making it a convenient solution for those who need to find parking 
+              quickly. The app also automatically charges the fare to your credit card, eliminating the need 
+              for cash transactions. Bluspot allows users to leave reviews and comments about 
+              their experience, ensuring transparency and accountability."
+              link = "https://telemedellin.tv/bluspot-aplicacion-parqueaderos-medellin/167585/"/>
           </Col>
 
           <Col md={6} className="project-card">
             <ProjectCard
               imgPath={smartmedicine}
               isBlog={false}
-              title = "Sending vaccine reminders to rural mothers."
-              description = "In 2013, the maternal and under-five mortality rates in the rural parts 
-              of Quindío, Colombia were high (around 15%). Many families who live in rural areas miss 
-              important public health messaging because they do not have access to internet or TV. 
-              In order to help to solve this issue, I created a platform in collaboration with Dr. Jeadran 
-              to send  rural women notifications for their prenatal appointments . This platform also informed 
-              doctors and social workers when patients missed several appointments and were potentially at risk."
-              link="https://github.com/sebashmh/Face_And_Emotion_Detection"
-            />
-          </Col>
-
-          <Col md={6} className="project-card">
-            <ProjectCard
-              imgPath={gyffu}
-              isBlog={false}
-              title="The first child-friendly safe engine in Latin America."
-              description = "I Co-founded  Gyffu, the first safe search platform created in Latin America. 
-              Gyffu protected children from pornographic, violent, and suicidal content.I worked as the engineering and 
-              BackEnd developer leader using Python, ElasticSearch, MongoDB, and Hadoop.We reached 1, 000, 000 users in 
-              Colombia and Perú.Most of these users were children and teenagers that used Gyffu for homework.
-              The company was successfully sold to a private investor that implemented our search algorithms and ML models to 
-              their business."
+              title="Gyffu: A child-friendly search engine in Latin America."
+              description = "Co-founder of Gyffu a platform that protected children from harmful content, including pornography, violence, 
+              and suicide-related content, we used utilizing Python, ElasticSearch, MongoDB, and Hadoop to build the 
+              platform. Through our efforts, we successfully reached 300,000 users in Colombia and Peru, 
+              the majority of whom were children and teenagers using Gyffu for their homework. We ultimately sold to a 
+              private investor who recognized the potential of our search algorithms and machine learning 
+              models. This platform is not currently online since it was sold to another company."
               link="https://github.com/sebashmh/MedHub_360"
             />
           </Col>

@@ -7,8 +7,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Techstack from "../About/Techstack";
 import Particle from "../Particle";
 import Tilt from "react-parallax-tilt";
-import Particle from "../Particle";
-import Techstack from "../About/Techstack";
 
 
 function Home2() {
@@ -91,10 +89,10 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               8 BITS <span className="purple"> ABOUT </span> ME
             </h1>
+            <Col>
             <p className="home-about-body">
-              -  Atlanta based < span className = "purple" > Computer Scientist. 💻</span>
-              <br />- I am a coffee connoisseur, or, as my friends say, a total coffee nerd! ☕.
-              <br />
+              - I am a coffee connoisseur, or, as my friends say, a total coffee nerd! ☕.
+              <br />-  Atlanta based < span className = "purple" > Computer Scientist. 💻</span><br />
               - I used to race mountain bikes, but now it's just something I do for fun! 🚵🏻‍♂️.
               <br />
               - Co-founder of 2 Startups 📱.
@@ -103,10 +101,11 @@ function Home2() {
               <br />
               - I am originally from Colombia, not Columbia 🇨🇴.
               <br />
-              - I play electric bass guitar 🎸.
+              - I enjoy taking landscape photos, check my<a className = "purple" href="google.com"> portfolio</a>! 📸.
               <br />
-              - I'm into origami and always trying to get better - not quite where I want to be yet, but practice makes perfect, right?.
+              - I'm into origami - not quite where I want to be yet, but practice makes perfect, right?.
             </p>
+            </Col>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
