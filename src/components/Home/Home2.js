@@ -92,7 +92,7 @@ function Home2() {
                   <br />
                   - I am originally from Colombia, not Columbia 🇨🇴.
                   <br />
-                  - I enjoy taking landscape photos, check my<a className="purple" href="google.com"> portfolio</a>! 📸.
+                  - I enjoy taking landscape photos, check my<a className="purple" href="https://www.flickr.com/people/sebastianmadrigal/"> portfolio</a>! 📸.
                   <br />
                   - I'm into origami - not quite where I want to be yet, but practice makes perfect, right?.
                 </p>
