@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import homeLogo from "../../Assets/Sebastian_Henao_Madrigal_Engineering_Manager_S.png";
+import homeLogo from "../../Assets/Sebastian_Henao_Madrigal_Engineering_Manager_S.webp";
 import Particle from "../ParticleTS";
 import Home2 from "./Home2";
 import Type from "./Type";

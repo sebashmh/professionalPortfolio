@@ -5,7 +5,7 @@ import Particle from "../ParticleTS";
 import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import pdf from "../../Assets/Sebastian_Henao_Madrigal_Engineering_Manager_S.png";
+import pdf from "../../Assets/Sebastian_Henao_Madrigal_Engineering_Manager_S.webp";
 
 function Resume() {
 

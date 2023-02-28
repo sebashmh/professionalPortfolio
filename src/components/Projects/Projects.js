@@ -6,12 +6,12 @@ import Particle from "../ParticleTS";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import smartmedicine from "../../Assets/Projects/Colombian Farmer SmartMedicine.png";
-import bluspot from "../../Assets/Projects/bluspot.png";
-import blueHubble from "../../Assets/Projects/BlueHubble_Sebastian_Henao_Madrigal.png";
-import leancore from "../../Assets/Projects/leancore.png";
-import algo from "../../Assets/Projects/nival.png";
-import plant from "../../Assets/Projects/bluspot.png";
+import smartmedicine from "../../Assets/Projects/Colombian Farmer SmartMedicine.webp";
+import bluspot from "../../Assets/Projects/bluspot.webp";
+import blueHubble from "../../Assets/Projects/BlueHubble_Sebastian_Henao_Madrigal.webp";
+import leancore from "../../Assets/Projects/leancore.webp";
+import algo from "../../Assets/Projects/nival.webp";
+import plant from "../../Assets/Projects/bluspot.webp";
 
 function Projects() {
   return (

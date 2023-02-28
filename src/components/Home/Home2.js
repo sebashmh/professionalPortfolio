@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/home-main.svg";
-import imgPhotographer from "../../Assets/Sebastian_Madrigal_Photographer.png";
+import imgPhotographer from "../../Assets/Sebastian_Madrigal_Photographer.webp";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Techstack from "../About/Techstack";
