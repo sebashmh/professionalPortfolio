@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";
+import PageNotFound from "./components/Home/PageNotFound"
 function App() {
   const [load, upadateLoad] = useState(true);
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/resume" component={Resume} />
+          <Route path="*" component={PageNotFound} />
         </Switch>
         <Footer />
       </div>

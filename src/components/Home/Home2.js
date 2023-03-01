@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Techstack from "../About/Techstack";
 import Particle from "../ParticleTS";
 import Tilt from "react-parallax-tilt";
+import FindMeOn from "./FindMeOn";
 import Gallery from "../Gallery";
 
 
@@ -116,52 +117,7 @@ function Home2() {
           </Row>
           <Row>
             <Col md={12} className="home-about-social">
-              <h1>FIND ME ON</h1>
-              <p>
-                Feel free to <span className="purple">connect </span>with me
-              </p>
-              <ul className="home-about-social-links">
-                <li className="social-icons">
-                  <a
-                    href="https://github.com/sebashmh"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                  >
-                    <i className="fab fa-github"></i>
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://twitter.com/madrinator"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                  >
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://linkedin.com/in/sebastianhenaomadrigal/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                  >
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.vero.co/sebasmadrigal/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour home-social-icons"
-                  >
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
+              <FindMeOn />
             </Col>
           </Row>
           <Gallery />
