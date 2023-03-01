@@ -22,30 +22,24 @@ function Home2() {
           </Col>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              A little bit <span className="purple"> About </span> me.
+              A little bit about <span className="purple">me</span>.
             </h1>
             <p className="home-about-body">
-              -I'm really passionate about tech, software engineering, photography, and coffee!
+              I'm a computer scientist with a few other hobbies on the side – software engineering, photography, and coffee (because who doesn't code better with a good cup of coffee?).
               <br />
-              <br />-It's been 12 years since I started coding and I'm fluent in classics like
-              <i>
-                <b className="purple"> Java, Python and Javascript. </b>
-              </i>
+              <br />I've been developing software for 12 years now and I've got some serious skills under my belt! Specially when it comes to classics like <i>
+                <b className="purple"> Java, Python and Javascript </b>
+              </i>. It's pretty amazing how much you can learn and accomplish in over a decade of coding.
+
               <br />
               <br />
-              -Right now, I'm focusing on &nbsp;
-              <i>
+              Right now, I'm focusing on <i>
                 <b className="purple">
-                  Engineering Management & Cloud Engineering .
+                  Engineering Management & Cloud Engineering
                 </b>
-              </i>
-              <br />
-              <br />
-              -Whenever I can, I use my development expertise with modern JavaScript frameworks like
-              <i>
-                <b className="purple"> Node.js and React.js. </b>
-              </i> I'm also passionate about using my skills to help others learn and progress in
-              the field.
+              </i>, which is pretty exciting stuff. But what really gets me fired up is using my skills and experience to help others grow in the field. That's why I'm so passionate about mentoring and sharing my knowledge with others. &nbsp;
+
+
 
             </p>
           </Col>

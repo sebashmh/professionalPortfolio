@@ -10,7 +10,7 @@ import smartmedicine from "../../Assets/Projects/Colombian Farmer SmartMedicine.
 import bluspot from "../../Assets/Projects/bluspot.webp";
 import blueHubble from "../../Assets/Projects/BlueHubble_Sebastian_Henao_Madrigal.webp";
 import leancore from "../../Assets/Projects/leancore.webp";
-import algo from "../../Assets/Projects/nival.webp";
+import gyffu from "../../Assets/Projects/Sebastian Henao Madrigal Gyffu.webp";
 import plant from "../../Assets/Projects/bluspot.webp";
 
 function Projects() {
@@ -80,21 +80,21 @@ function Projects() {
               the majority of whom were children and teenagers using Gyffu for their homework. We ultimately sold to a 
               private investor who recognized the potential of our search algorithms and machine learning 
               models. This platform is not currently online since it was sold to another company."
-              link="https://github.com/sebashmh/MedHub_360"
+              link="https://www.prnewswire.com/news-releases/colombia-based-privacy-focused-search-engine-gyffu-celebrates-crossing-milestone-as-one-of-the-worlds-1-million-most-visited-websites-300166727.html"
             />
           </Col>
         </Row>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Blog </strong> Posts
+          Sebastian's<strong className="purple"> Startups </strong> on the News
         </h1>
-        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
+        <p style={{ color: "white" }}>Do give a read to some of the articles about my Startups and Projects </p>
         <Row style={{ justifyContent: "center" }}>
           <Col md={6} className="blog-card">
             <BlogCard
-              imgPath={algo}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
+              imgPath={gyffu}
+              link="https://www.prnewswire.com/news-releases/colombia-based-privacy-focused-search-engine-gyffu-celebrates-crossing-milestone-as-one-of-the-worlds-1-million-most-visited-websites-300166727.html"
+              title="Gyffu continues to grow beyond expectations"
+              site="prnewswire.com"
             />
           </Col>
           <Col md={6} className="blog-card">

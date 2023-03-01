@@ -302,13 +302,13 @@ html {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #3AA2B4 !important;
+  color: whitesmoke !important;
   font-weight: 600 !important;
 }
 
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #78CDD7 !important;
+  color: whitesmoke !important;
 }
 
 @media (max-width: 767px) {
@@ -321,13 +321,16 @@ html {
   .Typewriter__cursor {
     display: none !important;
   }
+
   .home-header {
     padding-top: 10px !important;
   }
+
   .home-section {
-      
-    padding-top: 10px !important;  
+
+    padding-top: 10px !important;
   }
+
   .home-content {
     padding: 7rem 0 2rem !important;
     color: whitesmoke;
@@ -579,13 +582,13 @@ html {
 }
 
 @media(max-width: 767px) {
-.project-card {
-  padding-top: 25px !important;
-  padding-bottom: 25px !important;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  height: auto !important;
-}
+  .project-card {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: auto !important;
+  }
 }
 
 /* --------- */
