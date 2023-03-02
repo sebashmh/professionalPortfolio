@@ -31,7 +31,7 @@ function Home() {
             </Col>
             <Col md={4} className="myAvtar">
               <Tilt>
-                <img src={homeLogo} className="img-fluid" alt="avatar" style={{ textAlign: "center" }} />
+                <img src={homeLogo} className="img-fluid" alt="Sebastian Henao Madrigal, Engineering Manager" style={{ textAlign: "center" }} />
               </Tilt>
             </Col>
 

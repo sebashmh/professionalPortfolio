@@ -73,7 +73,7 @@ function Home2() {
 
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
-                8 BITS <span className="purple"> ABOUT </span> ME
+                8 bits about <span className="purple"> Sebastian Madrigal</span>
               </h1>
               <Col>
                 <p className="home-about-body">
@@ -95,7 +95,7 @@ function Home2() {
             </Col>
             <Col md={4} className="myAvtar">
               <Tilt>
-                <img src={imgPhotographer} className="img-fluid" alt="avatar" />
+                <img src={imgPhotographer} className="img-fluid" alt="Sebastian Henao Madrigal, Engineering Manager, Photographer" />
               </Tilt>
             </Col>
 

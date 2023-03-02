@@ -31,6 +31,7 @@ function Projects() {
               imgPath={leancore}
               isBlog={false}
               title = "Leancore a new way to create financial inclusion in Latam."
+              alt="Sebastian Henao Madrigal, Leancore, startup, Fintech"
               description= "LeanCore is the ultimate modular solution for companies seeking access 
               to a robust, non-traditional banking core. Lean Core provides innovative financial 
               services that are fully compatible with fintech players, consumer ecosystems, and users 
@@ -45,6 +46,7 @@ function Projects() {
               imgPath={blueHubble}
               isBlog={false}
               title = "BlueHubble a cloud monitoring platform for network devices."
+              alt="Sebastian Henao Madrigal, BlueHubble"
               description = "BlueHubble is the ultimate tech platform for network management, 
               bringing together thousands of network elements regardless of layer or manufacturer. 
               Our platform provides an easy-to-use dashboard that lets you monitor and manage all of 
@@ -58,6 +60,7 @@ function Projects() {
             <ProjectCard
               imgPath={bluspot}
               isBlog={false}
+              alt="Sebastian Henao Madrigal, Bluspot"
               title = "Bluspot: An alternative to the parking problem in Colombia."
               description = "Bluspot is an app that allows drivers to connect with owners of empty parking spaces 
               and book them in advance. Built using ReactNative, the app makes it easy for users to find parking 
@@ -74,6 +77,7 @@ function Projects() {
               imgPath={smartmedicine}
               isBlog={false}
               title="Gyffu: A child-friendly search engine in Latin America."
+              alt="Sebastian Henao Madrigal, Gyffu, Startup"
               description = "Co-founder of Gyffu a platform that protected children from harmful content, including pornography, violence, 
               and suicide-related content, we used utilizing Python, ElasticSearch, MongoDB, and Hadoop to build the 
               platform. Through our efforts, we successfully reached 300,000 users in Colombia and Peru, 
@@ -94,6 +98,7 @@ function Projects() {
               imgPath={gyffu}
               link="https://www.prnewswire.com/news-releases/colombia-based-privacy-focused-search-engine-gyffu-celebrates-crossing-milestone-as-one-of-the-worlds-1-million-most-visited-websites-300166727.html"
               title="Gyffu continues to grow beyond expectations"
+              alt="Sebastian Henao Madrigal, Gyffu, Engineering Manager, Computer Scientist"
               site="prnewswire.com"
             />
           </Col>
@@ -102,6 +107,7 @@ function Projects() {
               imgPath={plant}
               link="https://medium.com/"
               title="The Cost of your privacy"
+              alt="Sebastian Henao Madrigal, Bluspot"
               site="medium.com"
             />
           </Col>

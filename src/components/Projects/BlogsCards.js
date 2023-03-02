@@ -13,7 +13,7 @@ function BlogsCards(props) {
       style={{ fontSize: "1.2em" }}
     >
       <Card className="blog-card-view">
-        <Card.Img variant="top" src={props.imgPath} className="blog-img" />
+        <Card.Img variant="top" src={props.imgPath} className="blog-img" alt={props.alt} />
         <Card.Footer>
           <i className="fas fa-external-link-square-alt">&nbsp;</i>
           {props.title}
