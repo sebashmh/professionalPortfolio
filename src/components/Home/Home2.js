@@ -36,7 +36,7 @@ function Home2() {
               <br />
               Right now, I'm focusing on <i>
                 <b className="purple">
-                  Engineering Management & Cloud Engineering
+                  Engineering Management & Cloud Engineering.
                 </b>
               </i>, which is pretty exciting stuff. But what really gets me fired up is using my skills and experience to help others grow in the field. That's why I'm so passionate about mentoring and sharing my knowledge with others. &nbsp;
 
