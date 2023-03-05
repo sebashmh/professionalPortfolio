@@ -36,7 +36,7 @@ function Home2() {
               <br />
               Right now, I'm focusing on <i>
                 <b className="purple">
-                  Engineering Management & Cloud Engineering.
+                  Engineering Management & Cloud Engineering
                 </b>
               </i>, which is pretty exciting stuff. But what really gets me fired up is using my skills and experience to help others grow in the field. That's why I'm so passionate about mentoring and sharing my knowledge with others. &nbsp;
 
@@ -85,7 +85,7 @@ function Home2() {
                   <br />
                   - I can speak fluently English and Spanish 📢.
                   <br />
-                  - I am originally from Colombia, not Columbia 🇨🇴.
+                  - I am originally from Colombia 🇨🇴.
                   <br />
                   - I enjoy taking landscape photos, check my<a className="purple" href="https://www.flickr.com/people/sebastianmadrigal/"> portfolio</a>! 📸.
                   <br />
