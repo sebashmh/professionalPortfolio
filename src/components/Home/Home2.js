@@ -29,7 +29,7 @@ function Home2() {
               I'm a computer scientist with a few other hobbies on the side – software engineering, photography, and coffee (because who doesn't code better with a good cup of coffee?).
               <br />
               <br />I've been developing software for 12 years now and I've got some serious skills under my belt! Specially when it comes to classics like <i>
-                <b className="purple"> Java, Python and Javascript </b>
+                <b className="purple"> Java, Python  </b>and <b className="purple">Javascript </b>
               </i>. It's pretty amazing how much you can learn and accomplish in over a decade of coding.
 
               <br />
