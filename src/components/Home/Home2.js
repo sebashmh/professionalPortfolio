@@ -78,7 +78,7 @@ function Home2() {
               <Col>
                 <p className="home-about-body">
                   - I am a coffee connoisseur, or, as my friends say, a total coffee nerd! ☕.
-                  <br />-  Atlanta based < span className="purple" > Computer Scientist. 💻</span><br />
+                  <br />-  Atlanta, GA based < span className="purple" > Computer Scientist. 💻</span><br />
                   - I used to race mountain bikes, but now it's just something I do for fun! 🚵🏻‍♂️.
                   <br />
                   - Co-founder of 2 Startups 📱.
