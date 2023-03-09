@@ -11,7 +11,7 @@ import bluspot from "../../Assets/Projects/bluspot.webp";
 import blueHubble from "../../Assets/Projects/BlueHubble_Sebastian_Henao_Madrigal.webp";
 import leancore from "../../Assets/Projects/leancore.webp";
 import gyffu from "../../Assets/Projects/Sebastian Henao Madrigal Gyffu.webp";
-import plant from "../../Assets/Projects/bluspot.webp";
+
 
 function Projects() {
   return (
@@ -56,21 +56,6 @@ function Projects() {
               helping you stay on top of network performance and security. "
               link = "https://bluehubble.com/aiops"/>
           </Col>
-          <Col md={6} className="project-card">
-            <ProjectCard
-              imgPath={bluspot}
-              isBlog={false}
-              alt="Sebastian Henao Madrigal, Bluspot"
-              title = "Bluspot: An alternative to the parking problem in Colombia."
-              description = "Bluspot is an app that allows drivers to connect with owners of empty parking spaces 
-              and book them in advance. Built using ReactNative, the app makes it easy for users to find parking 
-              spots in congested areas of Colombia. With Bluspot, you can reserve your parking space up to 
-              15 minutes before you arrive, making it a convenient solution for those who need to find parking 
-              quickly. The app also automatically charges the fare to your credit card, eliminating the need 
-              for cash transactions. Bluspot allows users to leave reviews and comments about 
-              their experience, ensuring transparency and accountability."
-              link = "https://telemedellin.tv/bluspot-aplicacion-parqueaderos-medellin/167585/"/>
-          </Col>
 
           <Col md={6} className="project-card">
             <ProjectCard
@@ -104,11 +89,11 @@ function Projects() {
           </Col>
           <Col md={6} className="blog-card">
             <BlogCard
-              imgPath={plant}
-              link="https://medium.com/"
-              title="The Cost of your privacy"
+              imgPath={bluspot}
+              link="https://telemedellin.tv/bluspot-aplicacion-parqueaderos-medellin/167585/"
+              title="Bluspot: An alternative to the parking problem in Colombia."
               alt="Sebastian Henao Madrigal, Bluspot"
-              site="medium.com"
+              site="telemedellin.tv"
             />
           </Col>
         </Row>
